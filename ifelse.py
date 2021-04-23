@@ -31,3 +31,18 @@ else:
         print(1, "-", month + 1, "-", year)
 
 
+# user input
+
+x = (input("enter the input"))
+
+if x == "lol":
+    print("laugh out loud")
+elif x == "rofl":
+    print("rolling on the floor laughing")
+elif x == "lmk":
+    print("let me know")
+elif x == "smh":
+    print("shaking my head")
+else:
+    print("oops give proper input")
+    exit()
