@@ -33,7 +33,7 @@ else:
 
 # user input
 
-x = (input("enter the input"))
+x = (input("enter the input\t"))
 
 if x == "lol":
     print("laugh out loud")
@@ -46,3 +46,31 @@ elif x == "smh":
 else:
     print("oops give proper input")
     exit()
+
+# type of input
+
+#x = input("enter the number")
+
+if x == int(input):
+    print("number is integer type")
+elif x == float(input):
+    print("number is float type")
+elif x == complex(input):
+    print("number is complex type")
+elif x == str(input):
+    print("number is string type")
+elif x == 0:
+    print("number is zero")
+
+# pizza Slice
+
+number_of_pizza = int(input("enter number of pizza slice:\n"))
+
+if number_of_pizza % 2 ==0:
+    print("price per slice is Rs 120")
+    tot_price = number_of_pizza * 120
+    print(tot_price)
+else:
+    print("price per slice is Rs 123")
+    tot = number_of_pizza * 123
+    print(tot)
